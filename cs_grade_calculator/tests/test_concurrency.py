@@ -61,7 +61,7 @@ def test_concurrency():
     end_total = time.time()
     total_duration = end_total - start_total
     
-    print(f"\nResultados:")
+    print("\nResultados:")
     print(f"Usuarios simulados: {NUM_USERS}")
     print(f"Errores: {len(errors)}")
     if errors:

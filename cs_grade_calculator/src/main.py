@@ -56,7 +56,7 @@ def main():
     print(f"Promedio Ponderado: {result.weighted_average}")
     print(f"Penalización por Asistencia Aplicada: {'SÍ' if result.attendance_penalty_applied else 'NO'}")
     print(f"Puntos Extra Aplicados: +{result.extra_points_applied}")
-    print(f"---------------------------")
+    print("---------------------------")
     print(f"NOTA FINAL: {result.final_grade}")
 
 if __name__ == "__main__":
