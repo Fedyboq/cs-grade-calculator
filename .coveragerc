@@ -1,0 +1,12 @@
+[run]
+relative_files = True
+source = cs_grade_calculator/src
+
+[report]
+omit = 
+    */tests/*
+    */test_*.py
+    cs_grade_calculator/src/main.py
+
+[xml]
+output = coverage.xml
